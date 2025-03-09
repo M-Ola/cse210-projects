@@ -3,6 +3,7 @@
 // Exercise 2 Core requirement
 
 
+
 using System;
 
 class Program
@@ -45,7 +46,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Better luck next time!");
+            Console.WriteLine("Try again!");
         }
     }
 
