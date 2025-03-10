@@ -1,10 +1,12 @@
 using System;
+// Author: Monsuru Oladipo. CSE 210
+// Exercise 1 Core requirement
 
 class Program
 {
     static void Main(string[] args)
     {
-       
+
         Console.Write("What is your first name? ");
         string firstName = Console.ReadLine();
 
@@ -12,8 +14,8 @@ class Program
         string lastName = Console.ReadLine();
 
         Console.WriteLine($"Your name is {lastName},  {firstName} {lastName}");
-   
-   
-   
+
+
+
     }
 }
