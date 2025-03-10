@@ -1,6 +1,6 @@
 
 // Author: Monsuru Oladipo. CSE 210
-// Exercise 2 Core requirement
+// Exercise  2 Core requirement
 
 
 
