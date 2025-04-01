@@ -13,11 +13,11 @@ public class Order
 
     }
 
-    
+
 
     public float SubTotal()
     {
-float subTotal = 0;
+        float subTotal = 0;
 
         foreach (Product product in _products)
         {
@@ -26,6 +26,7 @@ float subTotal = 0;
 
         return subTotal;
     }
+
 
 
     float GetShipping()
@@ -49,16 +50,16 @@ float subTotal = 0;
     public string GetPackingLabel()
     {
 
-        string packingLabel = " ";
+        string packingLabel = "";
 
-        int count = _products.Count;
-        for (int i = 0; i < count; i++)
+       
+        foreach (Product product in _products)
         {
-            Product product = _products[i];
+           
             packingLabel +=
-    $"Name: {product.Getname()}  Product Id: {product.GetProductId()}  Price: {product.GetPrice()} Quantity: {product.GetQuantity()} Total Cost: {product.GetQuantity()}  ";
+    $"Name: {product.Getname()}  Product Id: {product.GetProductId()};  Price: {product.GetPrice()}; Quantity: {product.GetQuantity()}; Total Cost: {product.GetTotalCost()}\n";
 
-            
+
         }
 
         return packingLabel;
