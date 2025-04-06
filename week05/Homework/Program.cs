@@ -22,7 +22,7 @@ class Program
         Console.WriteLine(mathAssignment.GetSummary());
         Console.WriteLine(mathAssignment.GetHomeWorkList());
    
-   WritingAssignment writingAssignment= new WritingAssignment("James Byron", "Eng 500", "Literature of the world");
+        WritingAssignment writingAssignment= new WritingAssignment("James Byron", "Eng 500", "Literature of the world");
 
         Console.WriteLine(writingAssignment.GetSummary());
 
