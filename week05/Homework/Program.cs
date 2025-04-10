@@ -19,7 +19,7 @@ class Program
         MathAssignment mathAssignment = new MathAssignment("John keys", "Trigonometry", "Sec 2", "Explain Sine and Cosine");
 
 
-        Console.WriteLine(mathAssignment.GetSummary());
+        Console.WriteLine( mathAssignment.GetSummary());
         Console.WriteLine(mathAssignment.GetHomeWorkList());
    
         WritingAssignment writingAssignment= new WritingAssignment("James Byron", "Eng 500", "Literature of the world");
